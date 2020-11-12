@@ -1,0 +1,25 @@
+public Class FileIO
+
+private File accountsFile;
+private static String sourcefile = "accounts.txt";
+
+public FileIO(){
+this.readInFile(accountsFile.txt);
+}
+
+private void loadFile(){
+this.accountsFile = new File(sourcefile);
+this.parseAccounts();
+}
+
+*/
+Creates accounts from the loaded save file
+*/
+private void parseAccounts(){
+Scanner scanny = new Scanner(accountsFile);
+scanny.useDelimiter(",");
+}
+
+
+@override
+public String toString(){
